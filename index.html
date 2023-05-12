@@ -5,6 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../res/fontawesome/css/all.css" />
     <title>Portfolio V.1</title>
   </head>
   <body>
@@ -14,8 +21,26 @@
     <div class="container-noise"></div>
     <div id="wrapper">
       <section id="content">
-        <!--  SMOOTH SCROLL -->
+        <!--  PLAYER -->
 
+        <audio id="player" src="./GHOSTEMANE FED UP.mp3"></audio>
+        <div class="player">
+          <div class="control">
+            <i class="fas fa-play" id="playbtn"></i>
+          </div>
+          <div class="info">
+            <img
+              src="https://media.tenor.com/1WbUtfLi0hoAAAAd/oni-gang-oni.gif"
+              alt=""
+            />
+            <div class="bar">
+              <div id="progress"></div>
+            </div>
+          </div>
+
+          <div id="current">0:00</div>
+        </div>
+  <!--  SMOOTH SCROLL -->
         <div class="heading" aria-hidden="true">
           <p>portfolio</p>
           <div class="text-container">
@@ -236,10 +261,7 @@
             /></a>
           </div>
         </div>
-
-        <!-- Footer 
-–––––––––––––––––––––––––––––––––––––––––––––––––– -->
-
+        <!-- FOOTER -->
         <footer>
           <div class="container-footer">
             <div class="nine columns">
@@ -255,6 +277,6 @@
     <script src="https://assets.codepen.io/16327/ScrollSmoother.min.js?v=94387867"></script>
     <script src="https://assets.codepen.io/16327/SplitText3.min.js"></script>
     <script src="./js/script.js"></script>
-    <script src="./js/music.js"></script>
+    <script src="./js/player.js"></script>
   </body>
 </html>
