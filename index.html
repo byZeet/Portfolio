@@ -15,12 +15,7 @@
     <title>Portfolio V.1</title>
   </head>
   <body>
-    <!-- BG NOISE -->
 
-    <div class="noise"></div>
-    <div class="container-noise"></div>
-    <div id="wrapper">
-      <section id="content">
         <!--  PLAYER -->
 
         <audio id="player" src="./GHOSTEMANE FED UP.mp3"></audio>
@@ -40,19 +35,21 @@
 
           <div id="current">0:00</div>
         </div>
-  <!--  SMOOTH SCROLL -->
-        <div class="heading" aria-hidden="true">
-          <p>portfolio</p>
-          <div class="text-container">
-            <p>cosmin z.r.v</p>
-            <p data-speed="0.95">cosmin z.r.v</p>
-            <p data-speed="0.9">cosmin z.r.v</p>
-            <p data-speed="0.85">cosmin z.r.v</p>
-          </div>
-        </div>
+  <h1>PORTFOLIO</h1>
+    <!-- BG NOISE -->
+    <div class="noise"></div>
 
+    <div id="wrapper">
+      <section id="content">
         <!-- IMG GRID -->
-
+        <section>
+          <h1>Cosmin Z.R.V</h1>
+        
+          <div class="hero-container">
+            <div class="environment"></div>
+            <h2 class="hero glitch layers" data-text="コズミン"><span>コズミン</span></h2>
+          </div>
+        </section>
         <section class="image-grid container">
           <div class="image_cont" data-speed="1">
             <img data-speed="auto" src="./img/img_main.png" alt="" />
@@ -271,10 +268,7 @@
         </footer>
       </section>
     </div>
-    <!-- GSAP & JS -->
-    <script src="https://assets.codepen.io/16327/gsap-latest-beta.min.js?r=v3.11.3"></script>
-    <script src="https://assets.codepen.io/16327/ScrollTrigger.min.js"></script>
-    <script src="https://assets.codepen.io/16327/ScrollSmoother.min.js?v=94387867"></script>
+    <!--JS -->
     <script src="./js/script.js"></script>
     <script src="./js/player.js"></script>
   </body>
