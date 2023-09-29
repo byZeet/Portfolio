@@ -10,6 +10,7 @@ var playpause = function () {
   }
 }
 
+
 playbtn.addEventListener("click", playpause);
 
 player.onplay = function () {
